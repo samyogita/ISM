@@ -1,7 +1,8 @@
 body{
     margin:0;
-    font-family: Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
+
    .container{
     margin-top: 0;
    }
@@ -18,7 +19,7 @@ body{
     width: 35%;
     margin-top: 0;
     background-color: #002366;
-    height:610px;
+    height:642px;
     width: 35%;
     display: inline;
     position: fixed;
@@ -41,8 +42,9 @@ body{
     text-align: center;
     font-family: 'Besley', serif;
     color: #FCF8E8;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
+    padding: auto;
     width: 35%;
     display: inline;
    }
@@ -96,10 +98,10 @@ body{
    }
    .footer{
     width:100%;
-    height: 70px;
+    height: 50px;
     background-color: #423F3E;
     color: white;
-    font-size: small;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
    }
@@ -130,25 +132,32 @@ body{
     display: -ms-flexbox; /* IE10 */
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
+    margin: 15px;
+    padding: auto;
     }
     
     .icon {
-    padding: 10px;
+    
     background: dodgerblue;
     color: white;
     min-width: 50px;
     text-align: center;
     }
+    i{
+        align-self: center;
+    }
     
     .input-field {
     width: 100%;
     padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
     outline: none;
     }
     
     .input-field:focus {
     border: 2px solid dodgerblue;
+    
     }
     
     /* Set a style for the submit button */
@@ -160,6 +169,7 @@ body{
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    font-family: 'Times New Roman', Times, serif;
     }
     
     .btn:hover {
@@ -167,5 +177,6 @@ body{
     }
     fieldset{
     border: solid navy;
+    padding-top: 0;
     }
    

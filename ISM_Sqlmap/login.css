@@ -1,0 +1,171 @@
+body{
+    margin:0;
+    font-family: Verdana, sans-serif;
+}
+   .container{
+    margin-top: 0;
+   }
+   .column {
+    float: left;
+   }
+    
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+   .left{
+    width: 35%;
+    margin-top: 0;
+    background-color: #002366;
+    height:610px;
+    width: 35%;
+    display: inline;
+    position: fixed;
+   }
+   .right{
+    margin-top: 0;
+    height:610px;
+    width:65%;
+    display: inline;
+    float: right;
+    background-color: #FEFBF3;
+   }
+   h1{
+    margin-top: 0;
+    padding: 100px 60px;
+    text-align: center;
+    
+   }
+   .heading{
+    text-align: center;
+    font-family: 'Besley', serif;
+    color: #FCF8E8;
+    font-size: 50px;
+    text-align: center;
+    width: 35%;
+    display: inline;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   nav {
+    background: #EEEEEE;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+   }
+   nav .mainMenu {
+    display: flex;
+    list-style: none;
+   }
+   nav .mainMenu li a {
+    display: inline-block;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-size: 1rem;
+   }
+   nav .mainMenu li a:hover {
+    background: #C9D8B6;
+   }
+   nav .logo {
+    font-size: 15px;
+    cursor: pointer;
+    margin: auto 20px auto 20px ;
+    font-family: 'Dancing Script', cursive;
+   }
+   .logoimage{
+    height: 60px;
+    display: inline;
+    margin:10px 0 0 10px;
+   }
+   .ourproducts{
+    padding: 30px 50px 25px 35px;
+    text-align:justify;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+   }
+   h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   }
+   .footer{
+    width:100%;
+    height: 70px;
+    background-color: #423F3E;
+    color: white;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   }
+   .shopping{
+    text-align: center;
+    font-size: 20px;
+   }
+   .links a{
+    font-size: 15px;
+    padding: 0px 15px;
+    color: white;
+   }
+   .links a:hover{
+    color:#F29191;
+   }
+   .links{
+    padding: 10px 10px;
+   }
+   .copyright{
+    font-size: 10px;
+   }
+   .describe{
+    margin:40px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+   }
+   .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+    
+    .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    }
+    
+    .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    }
+    
+    .input-field:focus {
+    border: 2px solid dodgerblue;
+    }
+    
+    /* Set a style for the submit button */
+    .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    }
+    
+    .btn:hover {
+    opacity: 1;
+    }
+    fieldset{
+    border: solid navy;
+    }
+   
